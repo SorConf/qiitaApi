@@ -15,7 +15,7 @@
             if($kye == "title" || $kye == "url") $responseList[] = $value;
         }
     }
-    // 新着リストの連想配列を綺麗に
+    // 新着リストの連想配列を整列
     foreach($responseList as $kye => $value){
         $arraySortList[] = $value;
         if(count($arraySortList) == 2){
